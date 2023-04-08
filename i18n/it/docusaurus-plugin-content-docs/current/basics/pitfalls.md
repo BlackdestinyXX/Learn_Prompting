@@ -2,7 +2,7 @@
 sidebar_position: 90
 ---
 
-# 🟢 Pitfalls of LLMs
+# 🟢 Insidie dei LLM
 
 import Pitfalls from '../assets/pitfalls.svg';
 
@@ -11,32 +11,32 @@ import Pitfalls from '../assets/pitfalls.svg';
 </div>
 
 
-LLMs are extremely powerful, but they are by no means perfect. There are many pitfalls that you should be aware of when using them.
+I LLM sono molto potenti, ma ancora lontane della perfezione. Ci sono molte insidie di cui bisogna essere consapevoli quando le si usa.
 
-## Citing Sources
+## Citare le fonti
 
-LLMs for the most part **cannot accurately cite sources**. This is because they do not have access to the Internet, and do not exactly remember where their information came from. They will frequently generate sources that look good, but are entirely inaccurate.
+La maggior parte dei LLM non possono **citare accuratamente le fonti**. Questo è perché non hanno accesso a Internet e non si ricordano esattamente da dovre proviene quell'informazione. Generano spesso fonti che sembrano affidabili, ma sono completamente inaccurate.
 
 :::note
-Strategies like search augmented LLMs (LLMs that can search the Internet and other sources) can often fix this problem
+Strategie come i LLM con ricerca aumentata (LLM in grado di effettuare ricerche su Internet e su altre fonti) possono spesso risolvere questo problema.
 :::
 
-## Bias
+## Pregiudizio
 
-LLMs are often biased towards generating stereotypical responses. Even with safe guards in place, they will sometimes say sexist/racist/homophobic things. Be careful when using LLMs in consumer-facing applications, and also be careful when using them in research (they can generate biased results).
+I LLM sono spesso prevenuti nel generare risposte stereotipate. Anche con protezioni, possono dire ogni tanto cose sessiste/razziste/omofobe. Stai attendo quando usi LLM in applicazioni rivolte ai consumatori e stai anche attento quando le usi in ricerche (possono generare risultati stereotipati).
 
-## Hallucinations
+## Allucinazioni
 
-LLMs will frequently generate falsehoods when asked a question that they do not know the answer to. Sometimes they will state that they do not know the answer, but much of the time they will confidently give a wrong answer.
+I LLM generano spesso una falsità quando li viene posta una domanda di cui non conoscono la risposta. Delle volte dichiareranno di non sapere la risposta, ma la maggior parte delle volte daranno una risposta sbagliata.
 
-## Math
+## Matematica
 
-LLMs are often bad at math. They have difficulty solving simple math problems, and they are often unable to solve more complex math problems.
+I LLM non sono bravi in matematica la maggior parte delle volte. Hanno difficoltà a risolvere problemi di matematica semplici e spesso non riescono a risolvere problemi problemi di matematica più complessi. 
 
 :::note
-This problem can be fixed to some extent by using a [tool augmented LLM](https://learnprompting.org/docs/advanced_applications/mrkl).
+Questo problema può essere risolto usando uno [strumento aumentato LLM](https://learnprompting.org/docs/advanced_applications/mrkl).
 :::
 
 ## Prompt Hacking
 
-Users can often trick LLMs into generating any content they want. Read more about this [here](https://learnprompting.org/docs/category/-prompt-hacking).
+Li utenti possono spesso ingannare i LLM per farli generare il contenuto che vogliono. Leggi di più su questo argomento [qui](https://learnprompting.org/docs/category/-prompt-hacking).
